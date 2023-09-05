@@ -1,0 +1,66 @@
+body {
+   padding: 0;
+   margin: 0;
+  }
+.nav{
+    background-color:#232B2B;
+}
+.nav_link{
+    color: #F0EFE7;
+    font-size: 18px;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.nav_link:hover{
+    color: #008080;
+    border-bottom: 1px solid #008080;
+}
+
+
+/*contact page*/
+.icon{
+    font-size: 60px;
+    color:#008080;
+}
+
+.footer {
+    position: sticky bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer_icon{
+    font-size: 22px;
+    color: #008080;
+}
+
+.card:hover{
+    border-color: #008080;
+  
+}
+
+.main{
+    background-color: #008080;
+}
+
+
+/*-----home page stylings-----*/
+.social_profiles ul{
+    display: flex;
+    flex-basis: column;
+}
+.social_profiles ul li{
+    list-style: none;
+ }
+
+.social_profiles ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #DDA0DD;
+    padding: 15px;
+}
+
+.social_profiles ul li a:hover{
+    color: #F0EFE7;
+}
