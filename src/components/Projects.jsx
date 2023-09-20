@@ -9,6 +9,7 @@ import { FaMotorcycle } from 'react-icons/Fa6';
 import { BsPencilSquare } from 'react-icons/bs';
 import { RiMovieFill } from 'react-icons/Ri';
 import { AiOutlineArrowRight } from 'react-icons/Ai';
+import { PiTrademarkBold } from 'react-icons/pi';
 
 
 function Projects() {
@@ -66,7 +67,16 @@ function Projects() {
                   < RiMovieFill style={{fontSize:"120px", color:"#008080"}}/>
                   <h3 className='mt-3' style={{fontSize:"25px"}}>Media Recommendation system</h3>
                   <p className='mt-3 mb-3'> This is a  web application portal for a pick up and devivery company  that is used to enables easy and efficient management of their riders, drivers  , employees , customers and cash to ensure accountability and easy tracking of  resources that are owned by the company </p>
-                  <a href="#" style={{color: "#008080", display: "inline-block", textDecoration: "none" }}>Learn More<AiOutlineArrowRight className='mx-2'/></a>  
+                  <a href="https://github.com/codermiik/media_recommendation" style={{color: "#008080", display: "inline-block", textDecoration: "none" }}>Learn More<AiOutlineArrowRight className='mx-2'/></a>  
+              </div>   
+           </div>
+
+           <div className="col-md-4 mt-3">
+              <div className="card  shadow p-4  d-flex justify-content-center align-items-center">
+                  <PiTrademarkBold style={{fontSize:"120px", color:"#008080"}}/>
+                  <h3 className='mt-3' style={{fontSize:"25px"}}>Trade Expo Kenya</h3>
+                  <p className='mt-3 mb-3'> This is a  web application portal for a pick up and devivery company  that is used to enables easy and efficient management of their riders, drivers  , employees , customers and cash to ensure accountability and easy tracking of  resources that are owned by the company </p>
+                  <a href="https://www.expogr.com/expokenya/" style={{color: "#008080", display: "inline-block", textDecoration: "none" }}>Learn More<AiOutlineArrowRight className='mx-2'/></a>  
               </div>   
            </div>
 

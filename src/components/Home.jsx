@@ -1,5 +1,4 @@
 import Profile from '../assets/profile.jpeg';
-//import { FaDownload } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
@@ -10,8 +9,8 @@ import "./styles.css"
 
 
 function Home() {
-  
-  const text = "Hello! I am Sumba William, A software Craftsman, UI/UX designer, and Web Application Developer";
+  // auto type
+  const text = "Welcome to the Creative Universe of Sumba William Apwoka, where I am dedicated to Crafting Code, Designing Exceptional Experiences, and Building Digital Dreams that Transform Ideas into Reality!"
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
@@ -22,7 +21,7 @@ function Home() {
       } else {
         clearInterval(typingInterval);
       }
-    }, 100); // Adjust typing speed here (milliseconds)
+    }, 50); // Adjust typing speed here (milliseconds)
 
     return () => {
       clearInterval(typingInterval);
@@ -33,15 +32,17 @@ function Home() {
     <div className="container-fluid main">
       <div className="container">
         <div className="row">
-          <h3 className="fw-bold mt-5">Home</h3>
+          <h3 className="fw-bold mt-4">Home</h3>
 
-          <div className="col-md-6 mb-5">
-            <p style={{ color: "#DAA520", fontSize: "15px", fontWeight: "bold", marginTop: "5px" }}>Software Engineer , Designer & Web developer</p>
+          <div className="col-md-6 mb-3">
+            <p style={{ color: "#DAA520", fontSize: "15px", fontWeight: "bold", marginTop: "4px" }}>Software Engineer , UI/UX Designer & Web developer</p>
            {/* <p style={{ fontSize: "40px", fontWeight: "bolder", color: "white", marginTop: "2px" }}>Hello! I am Sumba William, A software Craftsman, UI/UX designer, and Web Application Developer</p>*/}
-           <p style={{ fontSize: "40px", fontWeight: "bolder", color: "white", marginTop: "2px" }}>
+           <p style={{ fontSize: "34px", fontWeight: "bolder", color: "white", marginTop: "2px" }}>
              {displayText}
            </p>
-           <div className='social_profiles mx-3'>
+
+           {/* //social_profiles */}
+           <div className='social_profiles mx-2'>
             <ul >
               <li><a href="#twittwer"><BsTwitter/> </a></li>
               <li><a href="#twittwer"><BsInstagram/> </a></li>
